@@ -1,1 +1,1 @@
-django-storages
+netboxlabs-diode-netbox-plugin
