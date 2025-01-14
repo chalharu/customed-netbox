@@ -1,4 +1,4 @@
-FROM netbox-community/netbox:v4.2.1
+FROM ghcr.io/netbox-community/netbox:v4.2.1
 
 COPY ./plugin_requirements.txt /
 
