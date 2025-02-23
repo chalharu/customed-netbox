@@ -1,2 +1,4 @@
 netboxlabs-diode-netbox-plugin
+netbox-bgp
+django-minio-storage
 boto3
