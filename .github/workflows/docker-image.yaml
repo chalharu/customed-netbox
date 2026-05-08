@@ -49,7 +49,7 @@ jobs:
             type=schedule,pattern={{date 'YYYYMMDD-hhmmss'}}
 
       - name: Build the Docker image
-        uses: docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83 # v6
+        uses: docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f # v7
         with:
           context: .
           push: false
@@ -59,7 +59,7 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: Build And Push the Docker image
-        uses: docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83 # v6
+        uses: docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f # v7
         with:
           context: .
           push: true
