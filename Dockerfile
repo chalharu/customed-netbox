@@ -1,4 +1,4 @@
-FROM ghcr.io/netbox-community/netbox:v4.7.2@sha256:3cf9d3bd77aa186233b84d0ea1cf1755581d5e5678fa7d86ec3be62f79d0c643
+FROM ghcr.io/netbox-community/netbox:v4.7.3@sha256:1d6e0b5fbd48da9868376900561ee55992e04446ce7861dab5e9a42ae01f3fcb
 
 COPY ./plugin_requirements.txt /
 
